@@ -1,0 +1,35 @@
+Program Name and Description
+------------------------------------------------
+common.c                  : - code common to nasm and ndisasm
+nasmlib.c	library         : routines for the Netwide Assembler
+nasmlib.c	library         : routines for the Netwide Assembler
+realpath.c	As             : system-independent as possible implementation of realpath()
+nasmlib.c	library         : routines for the Netwide Assembler
+strlist.c                 : - list of ordered strings, optionally made unique
+nasmlib.c	library         : routines for the Netwide Assembler
+path.c                    : - host operating system specific pathname manipulation functions
+nasmlib.c	library         : routines for the Netwide Assembler
+sync.c                    : the Netwide Disassembler synchronisation processing module
+ndisasm.c                 : the Netwide Disassembler main module
+disasm.c                  : where all the _work_ gets done in the Netwide Disassembler
+diserror.c                : - stubs for the error functions for the disassembler
+labels.c                  : label handling for the Netwide Assembler
+listing.c                 : listing file generator for the Netwide Assembler
+srcfile.c                 : - keep track of the current position in the input stream.
+parser.c                  : source line parser for the Netwide Assembler
+nasmlib.c	library         : routines for the Netwide Assembler
+preproc.c                 : macro preprocessor for the Netwide Assembler
+eval.c                    : expression evaluator for the Netwide Assembler
+assemble.c                : code generation for the Netwide Assembler
+error.c                   : - error message handling routines for the assembler
+float.c                   : floating-point constant support for the Netwide Assembler
+outaout.c	output          : routines for the Netwide Assembler to produce
+outmacho.c	output         : routines for the Netwide Assembler to produce
+outas86.c	output          : routines for the Netwide Assembler to produce
+outdbg.c	output           : routines for the Netwide Assembler to produce
+outcoff.c                 : output routines for the Netwide Assembler to produce
+codeview.c                : Codeview Debug Format support for COFF
+outobj.c	output           : routines for the Netwide Assembler to produce
+outform.c	manages         : a list of output formats, and associates
+outieee.c	output          : routines for the Netwide Assembler to produce
+outbin.c                  : output routines for the Netwide Assembler to produce
